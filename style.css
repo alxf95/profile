@@ -1,0 +1,71 @@
+body {
+  background-color: #fafaff;
+  font-family: 'PT Serif', serif;
+  color: #252323;
+}
+
+h1 {
+  font-family: 'Raleway', serif;
+  font-size: 50px;
+  letter-spacing: 0.3px;
+  color: #291f4c;
+  text-align: center;
+  margin: 35px
+}
+/*0a4863
+/*701b1a*/
+/*h2 {
+  letter-spacing: 0.2px;
+}*/
+
+h2, h3 {
+  color: #8e0909;
+  letter-spacing: 0.2px;
+}
+/*
+h3 {
+  text-align: center;
+}*/
+
+p {
+  letter-spacing:  0.1px;
+}
+
+a {
+  font-size: 35px;
+  color: #4a3787;
+}
+
+a:hover {
+  color: #291f4c;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.poster {
+  height: 300px;
+  width: 200px;
+  padding: 8;
+}
+
+#photo {
+  height: 500px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
