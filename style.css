@@ -7,10 +7,10 @@ body {
 h1 {
   font-family: 'Raleway', serif;
   font-size: 50px;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.8px;
   color: #291f4c;
   text-align: center;
-  margin: 35px
+  margin: 35px;
 }
 /*0a4863
 /*701b1a*/
@@ -20,15 +20,20 @@ h1 {
 
 h2, h3 {
   color: #8e0909;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.8px;
 }
-/*
+
+h2 {
+  font-size: 23;
+}
+
 h3 {
-  text-align: center;
-}*/
+  font-size: 20;
+}
 
 p {
-  letter-spacing:  0.1px;
+  letter-spacing:  0.3px;
+  font-size: 17;
 }
 
 a {
@@ -56,16 +61,21 @@ a:hover {
 
 .justify {
   text-align: justify;
+  margin: 15px;
+
 }
 
 .poster {
   height: 300px;
   width: 200px;
-  padding: 8;
+  padding: 10px;
 }
 
 #photo {
   height: 500px;
-  border-radius: 4px;
+  border-radius: 3px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin-left: -20px;
+  margin-right: auto;
 }
