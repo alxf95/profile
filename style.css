@@ -32,7 +32,7 @@ h3 {
 }
 
 p {
-  letter-spacing:  0.3px;
+  letter-spacing:  0.2px;
   font-size: 17;
 }
 
@@ -68,7 +68,7 @@ a:hover {
 .poster {
   height: 300px;
   width: 200px;
-  padding: 10px;
+  padding: 14px;
 }
 
 #photo {
